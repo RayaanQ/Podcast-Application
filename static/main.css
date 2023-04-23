@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+nav li,a{
+    font-weight: 500;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2%;
+    background-color: rgb(8, 1, 81);
+}
+
+.name{
+    color: white;
+    /* padding-right: 915px; */
+    padding-top: 2px;
+    margin-right: auto;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo img{
+    float: left;
+    width: 50px;
+    height: 50px;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+    color: white;
+    font-weight: 600;
+}
+
+.nav_links li a:hover{
+    color: lightblue;
+}
+
+.icon{
+    filter: invert(13%) sepia(1%) saturate(1%) hue-rotate(1deg) brightness(1000%) contrast(100%);
+    margin-right: 9px;
+}
+
+.main{
+    background-image:  url(../static/podcast_background.jpg);
+    height: 91.7vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    /* flex-direction: row-reverse; */
+    justify-content: center;
+    padding-top: 200px;
+    padding-left: 540px;
+}
+
+.inner_container{
+    border: 5px solid rgb(8, 1, 81);
+    padding: 32px 32px;
+}
+
+.text_1{
+    color: aliceblue;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.text_2{
+    color: antiquewhite;
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons a{
+    font-size: 22px;
+}
+
+.btn_1{
+    padding: 15px 31px;
+    font-size: medium;
+    border-radius: 30px;
+    border: none;
+    background-color:rgb(8, 1, 81) ;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+.btn_2{
+    padding: 15px 23px;
+    font-size: medium;
+    border: none;
+    background: none;
+    border-radius: 30px;
+    background-color:rgb(8, 1, 81);
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.6s ease;
+}
+
+.btn_1:hover, .btn_2:hover{
+    color: rgb(8, 1, 81) ;
+    background-color: aliceblue;
+    font-size: 30px;
+}
+
